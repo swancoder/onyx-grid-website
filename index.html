@@ -16,373 +16,492 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
 
-  <header class="site-header">
-    <nav class="nav">
-      <a href="#top" class="brand">
-        <img src="assets/img/favicon.svg" alt="">
-        ONYX GRID
-      </a>
-
-      <ul class="nav-links">
-        <li><a href="#challenge">Challenge</a></li>
-        <li><a href="#capabilities">Capabilities</a></li>
-        <li><a href="#engagement">Engagement</a></li>
-        <li><a href="#track-record">Track Record</a></li>
-        <li><a href="#team">Team</a></li>
-      </ul>
-
-      <div class="nav-cta">
-        <a href="#contact" class="btn btn-secondary">See Our Approach</a>
-        <a href="mailto:info@onyxgrid.eu" class="btn btn-primary">Discuss a Project</a>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </nav>
-  </header>
-
-  <main id="top">
-
-    <!-- ===================== HERO ===================== -->
-    <section class="hero container" id="hero">
-      <span class="eyebrow">Engineering Partner for Regulated &amp; High-Stakes Software</span>
-      <h1>ONYX GRID</h1>
-      <h2>Architecture-led engineering for cloud, AI, and security-critical systems</h2>
-      <p>We design and build the systems that regulated enterprises can't afford to get wrong — cloud platforms, agentic AI, and Zero Trust security, delivered by engineers who've owned production systems at scale.</p>
-
-      <div class="btn-group">
-        <a href="mailto:info@onyxgrid.eu" class="btn btn-primary">Discuss a Project</a>
-        <a href="#approach" class="btn btn-secondary">See Our Approach</a>
-      </div>
-      <p/>
-      <p class="hero-caption">ONYX GRID SIA · RIGA, LATVIA · EU-WIDE ENGAGEMENTS</p>
-    </section>
-
-    <!-- ===================== CHALLENGE ===================== -->
-    <section class="section" id="challenge">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">The Challenge</span>
-          <h2 align="center">Most software problems aren't technical — they're architectural</h2>
-          <p class="section-lede" align="center">Teams don't fail because they lack good engineers. They fail because nobody owns the system end to end.</p>
-        </div>
-
-        <div class="challenge-grid">
-          <div class="challenge-card">
-            <div class="card-icon">🧩</div>
-            <h3>Fragmented Ownership</h3>
-            <p>Cloud, security, and AI initiatives run as separate workstreams with separate vendors — nobody is accountable for how they fit together.</p>
-          </div>
-          <div class="challenge-card">
-            <div class="card-icon">🐌</div>
-            <h3>Stalled AI Adoption</h3>
-            <p>Pilots and PoCs pile up. Few make it to production because nobody designed for reliability, cost, and governance from day one.</p>
-          </div>
-          <div class="challenge-card">
-            <div class="card-icon">🔓</div>
-            <h3>Security Bolted On Late</h3>
-            <p>Security and compliance get treated as a review gate at the end, not a design constraint from the start — expensive to fix, easy to avoid.</p>
-          </div>
-          <div class="challenge-card">
-            <div class="card-icon">💸</div>
-            <h3>Cloud Spend Without Cloud Discipline</h3>
-            <p>Migrations ship, but nobody owns cost, right-sizing, or architecture evolution afterward — the bill quietly grows every quarter.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== WHAT WE DO ===================== -->
-    <section class="section section--alt" id="approach">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">What We Do</span>
-          <h2>Senior architecture, hands-on delivery</h2>
-          <p class="section-lede">Onyx Grid is an engineering practice built around one principle: the person who designs the system should be able to build it too. We embed as architects and engineers — not as a slide deck, not as a subcontracted team we never meet.</p>
-          <p>We work across four disciplines that are usually kept in separate silos, because in practice they're one problem.</p>
-          <span class="approach-flag">▼ ARCHITECTURE-LED DELIVERY ▼</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== CAPABILITIES ===================== -->
-    <section class="section" id="capabilities">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Capabilities</span>
-          <h2>From cloud foundations to agentic systems — one team, one architecture</h2>
-        </div>
-
-        <div class="capability-grid">
-          <div class="capability-card">
-            <div class="card-icon">☁️</div>
-            <h3>Cloud &amp; Platform Engineering</h3>
-            <p>Azure and AWS architecture, Kubernetes, event-driven systems, FinOps discipline (cost review, right-sizing, reserved capacity). We design for the bill you'll get in year two, not just the demo.</p>
-          </div>
-          <div class="capability-card">
-            <div class="card-icon">🤖</div>
-            <h3>AI &amp; Agentic Systems</h3>
-            <p>Production-grade LLM integration: RAG pipelines, MCP-based agent architectures, local and API-based model strategy, Human-in-the-Loop design. We ship agents that are governed, not just clever.</p>
-          </div>
-          <div class="capability-card">
-            <div class="card-icon">🔐</div>
-            <h3>Security-First Architecture</h3>
-            <p>Zero Trust by default — mTLS, OAuth2/OIDC, IAM, policy enforcement, defence-in-depth. Security as an architectural property, not a checklist at the end.</p>
-          </div>
-          <div class="capability-card">
-            <div class="card-icon">🧠</div>
-            <h3>Computer Vision &amp; Edge AI</h3>
-            <p>Model training through quantization and edge deployment — real-time inference on constrained hardware, not just cloud GPU demos.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== HOW WE ENGAGE ===================== -->
-    <section class="section section--alt" id="engagement">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">How We Engage</span>
-          <h2>From assessment to long-term ownership</h2>
-          <p class="section-lede">Four stages, one continuous relationship. We rarely hand off and disappear — most engagements evolve from assessment into embedded delivery.</p>
-        </div>
-
-        <div class="stage-grid">
-          <div class="stage-card">
-            <div class="stage-number">01</div>
-            <h3>Discovery &amp; Assessment</h3>
-            <ul>
-              <li>Architecture and codebase review</li>
-              <li>Feasibility analysis of target state</li>
-              <li>Risk and cost modelling</li>
-              <li>Incident history and operational reality — before proposing change</li>
-            </ul>
-          </div>
-          <div class="stage-card">
-            <div class="stage-number">02</div>
-            <h3>Embedded Architecture</h3>
-            <ul>
-              <li>Solution architecture owned end-to-end</li>
-              <li>ADRs and governance that scale with the team</li>
-              <li>Reference implementations, not just diagrams</li>
-              <li>Direct work with your engineers, not around them</li>
-            </ul>
-          </div>
-          <div class="stage-card">
-            <div class="stage-number">03</div>
-            <h3>Build &amp; Ship</h3>
-            <ul>
-              <li>Production-grade PoCs and MVPs</li>
-              <li>Security and cost built in from the first commit</li>
-              <li>CI/CD, observability, and operational readiness</li>
-              <li>Hands-on delivery, senior engineers only</li>
-            </ul>
-          </div>
-          <div class="stage-card">
-            <div class="stage-number">04</div>
-            <h3>Ongoing Partnership</h3>
-            <ul>
-              <li>Architecture review cadence</li>
-              <li>Technical advisory as your platform evolves</li>
-              <li>Available for the next hard problem, not just the last one</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== WHY ONYX GRID ===================== -->
-    <section class="section" id="why">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Why Onyx Grid</span>
-          <h2>Built for teams who've been burned by "strategy without delivery"</h2>
-        </div>
-
-        <div class="table-wrap">
-          <table class="compare-table">
-            <thead>
-              <tr>
-                <th>Capability</th>
-                <th>Typical Vendor</th>
-                <th>Onyx Grid</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Who designs vs. who builds</td>
-                <td>Separate teams, separate accountability</td>
-                <td>Same architects write the code</td>
-              </tr>
-              <tr>
-                <td>AI delivery</td>
-                <td>Slide decks and demos</td>
-                <td>Production PoCs, governed and shippable</td>
-              </tr>
-              <tr>
-                <td>Security</td>
-                <td>Reviewed at the end</td>
-                <td>Designed in from day one</td>
-              </tr>
-              <tr>
-                <td>Cloud cost</td>
-                <td>Someone else's problem post-launch</td>
-                <td>FinOps owned as part of the architecture</td>
-              </tr>
-              <tr>
-                <td>Engagement model</td>
-                <td>Fixed scope, then gone</td>
-                <td>Embedded, evolves with the platform</td>
-              </tr>
-              <tr>
-                <td>Domain fluency</td>
-                <td>Generalist consultants</td>
-                <td>25+ years in regulated, high-stakes systems</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== TRACK RECORD ===================== -->
-    <section class="section section--alt" id="track-record">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Track Record</span>
-          <h2>Systems we've owned, not just advised on</h2>
-          <p class="track-note">Validated delivery — anonymised where engagements are under NDA, verifiable via <a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">LinkedIn</a>.</p>
-        </div>
-
-        <ul class="track-list">
-          <li>Led cloud migration architecture for <strong>leading European and Latvian financial institutions</strong> — spanning 50+ services across multiple geographic regions in highly regulated environments</li>
-          <li>Designed and delivered Zero Trust security architecture — identity, mTLS, policy enforcement — for critical financial market infrastructure</li>
-          <li>Architected a low-latency trading platform matching engine that attracted direct investment from a major European stock exchange group</li>
-          <li>Led engineering organisations of up to 65 people through cloud and microservices transformation for a Baltic banking group</li>
-          <li>Delivered production AI/ML pipelines — from dataset through fine-tuning, quantization, and edge deployment</li>
-        </ul>
-
-        <div class="stat-strip">
-          <span class="stat"><strong>25+</strong> years in regulated systems</span>
-          <span class="stat-sep">·</span>
-          <span class="stat"><strong>65</strong> engineers led at peak</span>
-          <span class="stat-sep">·</span>
-          <span class="stat"><strong>50+</strong> services migrated</span>
-          <span class="stat-sep">·</span>
-          <span class="stat"><strong>3</strong> geographic regions in a single programme</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== FROM THE LAB ===================== -->
-    <section class="section" id="lab">
-      <div class="container">
-        <div class="lab-panel">
-          <span class="eyebrow">From the Lab</span>
-          <h2>Zero Trust Agentic Proxy</h2>
-          <p>We're building a production system that solves a problem most companies haven't hit yet: how do you let AI agents call internal systems without breaking your trust model?</p>
-          <p><strong>Zero Trust Agentic Proxy</strong> authenticates and authorises AI agents exactly like any human or service caller — no shortcut tokens, no backdoor access. Policy-driven, fully auditable, built for regulated environments where "the model did it" is not an acceptable answer to a compliance question.</p>
-          <p>An open-source reference implementation is available. Hardened, extended versions are built for clients with specific compliance and scale requirements — get in touch if this is a problem you're facing.</p>
-
-          <div class="btn-group">
-            <a href="https://zteasy.tech/" target="_blank" rel="noopener" class="btn btn-primary">View the Open-Source Project →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== FOCUS MARKETS ===================== -->
-    <section class="section section--alt" id="markets">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Focus Markets</span>
-          <h2>Where architecture discipline matters most</h2>
-        </div>
-
-        <div class="market-grid">
-          <div class="market-card">
-            <div class="card-icon">🏦</div>
-            <h3>Financial Services</h3>
-            <p>Banking, capital markets, insurance, payments — systems where downtime and security failures have regulatory consequences, not just reputational ones.</p>
-          </div>
-          <div class="market-card">
-            <div class="card-icon">🏢</div>
-            <h3>Regulated Enterprise</h3>
-            <p>Any organisation where compliance, auditability, and data governance shape the architecture, not just the paperwork.</p>
-          </div>
-          <div class="market-card">
-            <div class="card-icon">🚀</div>
-            <h3>Scaling Tech Companies</h3>
-            <p>Teams that have outgrown their early architecture and need it rebuilt without stopping the business.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== TEAM ===================== -->
-    <section class="section" id="team">
-      <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Team</span>
-          <h2>Senior by default</h2>
-          <p class="section-lede">Onyx Grid is a small, deliberately senior practice — core architecture led directly, supported by a trusted network of specialist engineers brought in per engagement. No junior bench, no hidden subcontracting chain.</p>
-        </div>
-
-        <div class="team-card">
-          <div class="team-avatar">DL</div>
-          <div>
-            <h3 class="team-name">Dmitrijs</h3>
-            <span class="team-role">Solution Architect &amp; Founder</span>
-            <p>25+ years delivering complex distributed systems in regulated environments — capital markets, banking, and insurance. Owns architecture end-to-end: from discovery and design through production-grade PoCs, governance, and delivery — hands-on, leading by example.</p>
-
-            <div class="stack-tags">
-              <span>SOLUTION ARCHITECTURE</span>
-              <span>ZERO TRUST SECURITY</span>
-              <span>EVENT-DRIVEN SYSTEMS</span>
-              <span>CLOUD &amp; KUBERNETES</span>
-              <span>AGENTIC AI SYSTEMS</span>
-              <span>EDGE AI / ML PIPELINES</span>
-            </div>
-
-            <p style="margin-top: 20px;"><a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">Full profile on LinkedIn →</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== CONTACT ===================== -->
-    <section class="contact-section container" id="contact">
-      <span class="eyebrow">Get In Touch</span>
-      <h2>Let's talk about the system you're trying to fix</h2>
-      <p class="section-lede">Whether it's a stalled AI initiative, a cloud migration that's lost its architecture, or a security posture that needs to be designed in rather than bolted on — we start with a conversation, not a proposal template.</p>
-
-      <div class="btn-group">
-        <a href="mailto:info@onyxgrid.eu" class="btn btn-primary">Get in Touch</a>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        ONYX GRID — Architecture-Led Engineering for Cloud, AI &amp; Security
-        <span>Onyx Grid SIA · Riga, Latvia · EU-wide engagements · © <span id="year">2026</span></span>
-      </div>
-
-      <ul class="footer-links">
-        <li><a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="mailto:info@onyxgrid.eu">Get in Touch</a></li>
-      </ul>
+<header class="site-header">
+  <nav class="nav">
+    <a href="#top" class="brand"><img src="assets/img/favicon.svg" alt="" class="brand-mark">Onyx Grid</a>
+    <div class="nav-links">
+      <a href="#challenge">Challenge</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#engagement">Engagement</a>
+      <a href="#track-record">Track Record</a>
+      <a href="#team">Team</a>
     </div>
-  </footer>
+    <div class="nav-cta">
+      <a class="nav-linkedin" href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        LinkedIn
+      </a>
+      <a href="mailto:info@onyxgrid.eu" class="btn btn-primary">Discuss a Project</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-mobile">
+    <a href="#challenge">Challenge</a>
+    <a href="#capabilities">Capabilities</a>
+    <a href="#engagement">Engagement</a>
+    <a href="#track-record">Track Record</a>
+    <a href="#team">Team</a>
+    <a href="mailto:info@onyxgrid.eu">Discuss a Project</a>
+    <a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">LinkedIn ↗</a>
+  </div>
+</header>
 
-  <script src="assets/js/main.js"></script>
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">Engineering Partner for Regulated &amp; High-Stakes Software</span>
+          <h1>Strategy is a slide until someone builds it. We design the system — and build it too.</h1>
+          <p class="lede">Onyx Grid delivers architecture-led engineering for the systems regulated enterprises can't afford to get wrong — cloud platforms, agentic AI, and Zero Trust security, built by engineers who've owned production at scale.</p>
+          <div class="hero-actions">
+            <a href="mailto:info@onyxgrid.eu" class="btn btn-primary btn-lg">Discuss a Project</a>
+            <a href="#engagement" class="btn btn-secondary btn-lg">See how we engage</a>
+          </div>
+          <p class="hero-note">Onyx Grid SIA · Riga, Latvia · EU-wide engagements · Senior engineers only</p>
+        </div>
+        <div class="code-panel">
+          <pre><span class="tok-com"># architecture-manifest.yaml — every engagement, from the first commit</span>
+<span class="tok-key">schemaVersion</span>: 1
+<span class="tok-key">principles</span>:
+  <span class="tok-key">security</span>: <span class="tok-str">designed-in</span>     <span class="tok-com"># Zero Trust, not a review gate</span>
+  <span class="tok-key">cloud_cost</span>: <span class="tok-str">owned</span>         <span class="tok-com"># the year-two bill, not the demo</span>
+  <span class="tok-key">ai</span>: <span class="tok-str">governed</span>              <span class="tok-com"># auditable, human-in-the-loop</span>
+<span class="tok-key">delivery</span>:
+  <span class="tok-key">architects_write_code</span>: <span class="tok-str">true</span>
+  <span class="tok-key">junior_bench</span>: <span class="tok-str">none</span>
+  <span class="tok-key">handoff_and_disappear</span>: <span class="tok-str">false</span></pre>
+        </div>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat-card">
+          <div class="stat-num">25+</div>
+          <div class="stat-label">Years delivering regulated, high-stakes systems</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">65</div>
+          <div class="stat-label">Engineers led at peak through cloud transformation</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">50+</div>
+          <div class="stat-label">Services migrated in regulated environments</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">3</div>
+          <div class="stat-label">Geographic regions in a single migration programme</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CHALLENGE ===================== -->
+  <section class="section section-alt" id="challenge">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">The Challenge</span>
+        <h2>Most software problems aren't technical — they're architectural</h2>
+        <p class="lede">Teams don't fail because they lack good engineers. They fail because nobody owns the system end to end — and the industry numbers show it.</p>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card challenge-card">
+          <div class="stat-num">70%</div>
+          <h3>Fragmented Ownership</h3>
+          <p>Digital transformations fail to deliver expected outcomes — cloud, security, and AI run as separate workstreams with separate vendors, and nobody is accountable for how they fit together.</p>
+          <div class="stat-source">BCG · McKinsey, 2025</div>
+        </div>
+        <div class="card challenge-card">
+          <div class="stat-num">60%</div>
+          <h3>Stalled AI Adoption</h3>
+          <p>Of AI projects will be abandoned through 2026 for lack of AI-ready data and implementation strategy. Pilots pile up; few reach production because nobody designed for reliability, cost, and governance from day one.</p>
+          <div class="stat-source">Gartner, 2025</div>
+        </div>
+        <div class="card challenge-card">
+          <div class="stat-num">$4.4M</div>
+          <h3>Security Bolted On Late</h3>
+          <p>Average cost of a data breach. Security and compliance treated as a review gate at the end — not a design constraint from the start — is expensive to fix and easy to avoid.</p>
+          <div class="stat-source">IBM Cost of a Data Breach, 2025</div>
+        </div>
+        <div class="card challenge-card">
+          <div class="stat-num">~30%</div>
+          <h3>Cloud Spend Without Cloud Discipline</h3>
+          <p>Of cloud spend is reported as waste. Migrations ship, but nobody owns cost, right-sizing, or architecture evolution afterward — the bill quietly grows every quarter.</p>
+          <div class="stat-source">Flexera State of the Cloud, 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== POSITIONING ===================== -->
+  <section class="section section-navy">
+    <div class="container">
+      <div class="positioning">
+        <blockquote>&ldquo;The person who designs the system should be able to build it too.&rdquo;</blockquote>
+        <cite>— The principle Onyx Grid is built on</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CAPABILITIES ===================== -->
+  <section class="section" id="capabilities">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Capabilities</span>
+        <h2>From cloud foundations to agentic systems — one team, one architecture</h2>
+        <p class="lede">Four disciplines that are usually kept in separate silos, because in practice they're one problem. We embed as architects and engineers — not as a slide deck, not as a subcontracted team you never meet.</p>
+      </div>
+
+      <div class="grid grid-2">
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 1 0-.4-8.98 6 6 0 0 0-11.54 1.62A4 4 0 0 0 6 19h11.5z"/></svg>
+          </div>
+          <h3>Cloud &amp; Platform Engineering</h3>
+          <p>Azure and AWS architecture, Kubernetes, event-driven systems, FinOps discipline — cost review, right-sizing, reserved capacity. We design for the bill you'll get in year two, not just the demo.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="7" width="14" height="12" rx="2"/><path d="M12 7V4M8 4h8M9 12h.01M15 12h.01M9 16h6"/></svg>
+          </div>
+          <h3>AI &amp; Agentic Systems</h3>
+          <p>Production-grade LLM integration: RAG pipelines, MCP-based agent architectures, local and API-based model strategy, human-in-the-loop design. We ship agents that are governed, not just clever.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Security-First Architecture</h3>
+          <p>Zero Trust by default — mTLS, OAuth2/OIDC, IAM, policy enforcement, defence-in-depth. Security as an architectural property, not a checklist at the end.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Computer Vision &amp; Edge AI</h3>
+          <p>Model training through quantization and edge deployment — real-time inference on constrained hardware, not just cloud GPU demos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW WE ENGAGE ===================== -->
+  <section class="section section-alt" id="engagement">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">How We Engage</span>
+        <h2>From assessment to long-term ownership</h2>
+        <p class="lede">Four stages, one continuous relationship. We rarely hand off and disappear — most engagements evolve from assessment into embedded delivery.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="card stage-card">
+          <div class="stage-num">01</div>
+          <h3>Discovery &amp; Assessment</h3>
+          <ul>
+            <li>Architecture and codebase review</li>
+            <li>Feasibility analysis of target state</li>
+            <li>Risk and cost modelling</li>
+            <li>Incident history and operational reality — before proposing change</li>
+          </ul>
+        </div>
+        <div class="card stage-card">
+          <div class="stage-num">02</div>
+          <h3>Embedded Architecture</h3>
+          <ul>
+            <li>Solution architecture owned end-to-end</li>
+            <li>ADRs and governance that scale with the team</li>
+            <li>Reference implementations, not just diagrams</li>
+            <li>Direct work with your engineers, not around them</li>
+          </ul>
+        </div>
+        <div class="card stage-card">
+          <div class="stage-num">03</div>
+          <h3>Build &amp; Ship</h3>
+          <ul>
+            <li>Production-grade PoCs and MVPs</li>
+            <li>Security and cost built in from the first commit</li>
+            <li>CI/CD, observability, and operational readiness</li>
+            <li>Hands-on delivery, senior engineers only</li>
+          </ul>
+        </div>
+        <div class="card stage-card">
+          <div class="stage-num">04</div>
+          <h3>Ongoing Partnership</h3>
+          <ul>
+            <li>Architecture review cadence</li>
+            <li>Technical advisory as your platform evolves</li>
+            <li>Available for the next hard problem, not just the last one</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY ONYX GRID ===================== -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Why Onyx Grid</span>
+        <h2>Built for teams who've been burned by "strategy without delivery"</h2>
+      </div>
+
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Capability</th>
+              <th>Typical Vendor</th>
+              <th>Onyx Grid</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Who designs vs. who builds</td>
+              <td>Separate teams, separate accountability</td>
+              <td>Same architects write the code</td>
+            </tr>
+            <tr>
+              <td>AI delivery</td>
+              <td>Slide decks and demos</td>
+              <td>Production PoCs, governed and shippable</td>
+            </tr>
+            <tr>
+              <td>Security</td>
+              <td>Reviewed at the end</td>
+              <td>Designed in from day one</td>
+            </tr>
+            <tr>
+              <td>Cloud cost</td>
+              <td>Someone else's problem post-launch</td>
+              <td>FinOps owned as part of the architecture</td>
+            </tr>
+            <tr>
+              <td>Engagement model</td>
+              <td>Fixed scope, then gone</td>
+              <td>Embedded, evolves with the platform</td>
+            </tr>
+            <tr>
+              <td>Domain fluency</td>
+              <td>Generalist consultants</td>
+              <td>25+ years in regulated, high-stakes systems</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TRACK RECORD ===================== -->
+  <section class="section section-alt" id="track-record">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Track Record</span>
+        <h2>Systems we've owned, not just advised on</h2>
+        <p class="track-note">Validated delivery — anonymised where engagements are under NDA, verifiable via <a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </div>
+
+      <div class="findings">
+        <div class="finding">
+          <div class="finding-num">01</div>
+          <p>Led cloud migration architecture for <strong>leading European and Latvian financial institutions</strong> — spanning 50+ services across multiple geographic regions in highly regulated environments.</p>
+        </div>
+        <div class="finding">
+          <div class="finding-num">02</div>
+          <p>Designed and delivered <strong>Zero Trust security architecture</strong> — identity, mTLS, policy enforcement — for critical financial market infrastructure.</p>
+        </div>
+        <div class="finding">
+          <div class="finding-num">03</div>
+          <p>Architected a <strong>low-latency trading platform matching engine</strong> that attracted direct investment from a major European stock exchange group.</p>
+        </div>
+        <div class="finding">
+          <div class="finding-num">04</div>
+          <p>Led engineering organisations of up to <strong>65 people</strong> through cloud and microservices transformation for a Baltic banking group.</p>
+        </div>
+        <div class="finding">
+          <div class="finding-num">05</div>
+          <p>Delivered <strong>production AI/ML pipelines</strong> — from dataset through fine-tuning, quantization, and edge deployment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FROM THE LAB ===================== -->
+  <section class="section" id="lab">
+    <div class="container">
+      <div class="lab-grid">
+        <div>
+          <span class="eyebrow">From the Lab</span>
+          <div class="lab-badges">
+            <span class="badge badge-cat2">Open Source · MIT</span>
+            <span class="badge badge-cat1">Zero Trust · AI Agents</span>
+          </div>
+          <h2>ZTeasy — Zero Trust for AI agents and internal APIs</h2>
+          <p>We're building a production system that solves a problem most companies haven't hit yet: how do you let AI agents call internal systems without breaking your trust model?</p>
+          <p><strong>ZTeasy</strong> is a Zero Trust policy gateway that authenticates and authorises AI agents exactly like any human or service caller — no shortcut tokens, no backdoor access. Policy-driven, fully auditable, built for regulated environments where "the model did it" is not an acceptable answer to a compliance question.</p>
+          <p>The open-source reference implementation is free to use. Hardened, extended versions are built for clients with specific compliance and scale requirements — get in touch if this is a problem you're facing.</p>
+          <div class="hero-actions">
+            <a href="https://zteasy.tech/" target="_blank" rel="noopener" class="btn btn-primary">Visit zteasy.tech →</a>
+            <a href="https://github.com/swancoder/ZTeasy" target="_blank" rel="noopener" class="btn btn-secondary">Source on GitHub</a>
+          </div>
+        </div>
+        <div class="code-panel">
+          <pre><span class="tok-com"># zte-policies.yaml — agents get exactly what policy allows</span>
+<span class="tok-key">agentMcpToolCalls</span>:
+  - <span class="tok-key">id</span>: <span class="tok-str">agent-support-read-only</span>
+    <span class="tok-key">effect</span>: <span class="tok-str">ALLOW</span>
+    <span class="tok-key">source</span>: <span class="tok-str">client:support-agent</span>
+    <span class="tok-key">target</span>: <span class="tok-str">crm.get_customer</span>
+  - <span class="tok-key">id</span>: <span class="tok-str">agent-support-no-delete</span>
+    <span class="tok-key">effect</span>: <span class="tok-str">DENY</span>
+    <span class="tok-key">target</span>: <span class="tok-str">crm.delete_*</span>
+
+<span class="tok-com"># deny always wins — no match, no exception</span></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOCUS MARKETS ===================== -->
+  <section class="section section-alt" id="markets">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Focus Markets</span>
+        <h2>Where architecture discipline matters most</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <span class="badge badge-cat1" style="margin-bottom: 16px;">Primary</span>
+          <h3>Financial Services</h3>
+          <p>Banking, capital markets, insurance, payments — systems where downtime and security failures have regulatory consequences, not just reputational ones. Our home turf for 25+ years.</p>
+        </div>
+        <div class="card">
+          <span class="badge badge-cat2" style="margin-bottom: 16px;">Secondary</span>
+          <h3>Regulated Enterprise</h3>
+          <p>Any organisation where compliance, auditability, and data governance shape the architecture, not just the paperwork.</p>
+        </div>
+        <div class="card">
+          <span class="badge badge-cat3" style="margin-bottom: 16px;">Specialty</span>
+          <h3>Scaling Tech Companies</h3>
+          <p>Teams that have outgrown their early architecture and need it rebuilt without stopping the business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TEAM ===================== -->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Team</span>
+        <h2>Senior-led. AI-augmented.</h2>
+        <p class="lede">Onyx Grid is a small, deliberately senior practice — the principal architect leads every engagement directly, amplified by AI tooling and a trusted network of specialist engineers.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          </div>
+          <h3>Principal on every engagement</h3>
+          <p>Architecture is led directly by the founder — no account managers between you and the person doing the work, no hidden subcontracting chain.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9l-4.6 1.9L12 15.5l-1.9-4.6L5.5 9l4.6-1.4L12 3z"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15z"/></svg>
+          </div>
+          <h3>AI-augmented delivery</h3>
+          <p>AI agents handle research, analysis, code scaffolding, and documentation — under senior review, every time. The throughput of a team, the judgment of a principal.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="12" cy="18" r="3"/><path d="M8.5 7.5l2 8M15.5 7.5l-2 8M9 6h6"/></svg>
+          </div>
+          <h3>Trusted specialist network</h3>
+          <p>Vetted senior engineers brought in per engagement when scale demands it — under direct supervision. No junior bench, ever.</p>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="team-avatar">DL</div>
+        <div>
+          <h3 class="team-name">Dmitrijs</h3>
+          <span class="team-role">Solution Architect &amp; Founder</span>
+          <p>25+ years delivering complex distributed systems in regulated environments — capital markets, banking, and insurance. Owns architecture end-to-end: from discovery and design through production-grade PoCs, governance, and delivery — hands-on, leading by example.</p>
+          <div class="stack-tags">
+            <span>SOLUTION ARCHITECTURE</span>
+            <span>ZERO TRUST SECURITY</span>
+            <span>EVENT-DRIVEN SYSTEMS</span>
+            <span>CLOUD &amp; KUBERNETES</span>
+            <span>AGENTIC AI SYSTEMS</span>
+            <span>EDGE AI / ML PIPELINES</span>
+          </div>
+          <p style="margin: 20px 0 0;"><a class="team-link" href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">Full profile on LinkedIn →</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="cta-band">
+        <h2>Let's talk about the system you're trying to fix</h2>
+        <p>Whether it's a stalled AI initiative, a cloud migration that's lost its architecture, or a security posture that needs to be designed in rather than bolted on — we start with a conversation, not a proposal template.</p>
+        <div class="hero-actions">
+          <a href="mailto:info@onyxgrid.eu" class="btn btn-primary btn-lg">Get in Touch</a>
+          <a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">Connect on LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="assets/img/favicon.svg" class="brand-mark" alt="">Onyx Grid</div>
+        <p>Architecture-led engineering for cloud, AI, and security-critical systems. We design and build the systems regulated enterprises can't afford to get wrong.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Practice</h4>
+        <a href="#challenge">The challenge</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#engagement">How we engage</a>
+        <a href="#track-record">Track record</a>
+      </div>
+      <div class="footer-col">
+        <h4>From the Lab</h4>
+        <a href="https://zteasy.tech/" target="_blank" rel="noopener">ZTeasy — Zero Trust gateway</a>
+        <a href="https://github.com/swancoder/ZTeasy" target="_blank" rel="noopener">Source on GitHub</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="mailto:info@onyxgrid.eu">info@onyxgrid.eu</a>
+        <a href="https://linkedin.com/in/dmitrijslebedevs" target="_blank" rel="noopener">LinkedIn</a>
+        <span>Onyx Grid SIA · Riga, Latvia</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Onyx Grid SIA. All rights reserved.</span>
+      <span>EU-wide engagements · Riga, Latvia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
